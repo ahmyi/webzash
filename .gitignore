@@ -1,6 +1,5 @@
 
 # Created by https://www.gitignore.io/api/cakephp,composer,windows,osx,phpstorm,netbeans,linux,vim,node,macos,webstorm,bower,grunt,elixir
-Database/*
 ### Bower ###
 bower_components
 .bower-cache

@@ -43,7 +43,7 @@ class Ledger extends WebzashAppModel {
 
 		'group_id' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Parent group cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -69,7 +69,7 @@ class Ledger extends WebzashAppModel {
 		),
 		'name' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Ledger name cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -109,7 +109,7 @@ class Ledger extends WebzashAppModel {
 		),
 		'op_balance' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Opening balance cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -135,7 +135,7 @@ class Ledger extends WebzashAppModel {
 		),
 		'op_balance_dc' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Opening balance Dr/Cr cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -149,7 +149,7 @@ class Ledger extends WebzashAppModel {
 		),
 		'type' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Bank or cash account cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -169,7 +169,7 @@ class Ledger extends WebzashAppModel {
 		),
 		'reconciliation' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Reconciliation cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,

@@ -59,7 +59,7 @@ class Entry extends WebzashAppModel {
 		),
 		'entrytype_id' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Entry type cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -125,7 +125,7 @@ class Entry extends WebzashAppModel {
 		),
 		'dr_total' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Debit total cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -151,7 +151,7 @@ class Entry extends WebzashAppModel {
 		),
 		'cr_total' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Credit total cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,

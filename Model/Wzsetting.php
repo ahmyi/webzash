@@ -48,7 +48,7 @@ class Wzsetting extends WebzashAppModel {
 		),
 		'drcr_toby' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'For entry use cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -62,7 +62,7 @@ class Wzsetting extends WebzashAppModel {
 		),
 		'enable_logging' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Enable logging cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -102,7 +102,7 @@ class Wzsetting extends WebzashAppModel {
 		),
 		'user_registration' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'User registration cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -116,7 +116,7 @@ class Wzsetting extends WebzashAppModel {
 		),
 		'admin_verification' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Admin verification cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -130,7 +130,7 @@ class Wzsetting extends WebzashAppModel {
 		),
 		'email_verification' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Email verification cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,

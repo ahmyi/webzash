@@ -39,7 +39,7 @@ class Wzuseraccount extends WebzashAppModel {
 	public $validate = array(
 		'wzuser_id' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'User id cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -53,7 +53,7 @@ class Wzuseraccount extends WebzashAppModel {
 		),
 		'wzaccount_id' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Account id cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,

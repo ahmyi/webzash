@@ -39,7 +39,7 @@ class Entrytype extends WebzashAppModel {
 	public $validate = array(
 		'label' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Label cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -71,7 +71,7 @@ class Entrytype extends WebzashAppModel {
 		),
 		'name' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Name cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,

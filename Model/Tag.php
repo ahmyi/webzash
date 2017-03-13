@@ -39,7 +39,7 @@ class Tag extends WebzashAppModel {
 	public $validate = array(
 		'title' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Title cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -59,7 +59,7 @@ class Tag extends WebzashAppModel {
 		),
 		'color' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Color cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
@@ -80,7 +80,7 @@ class Tag extends WebzashAppModel {
 		),
 		'background' => array(
 			'rule1' => array(
-				'rule' => 'notEmpty',
+				'rule' => 'notBlank',
 				'message' => 'Background cannot be empty',
 				'required' => true,
 				'allowEmpty' => false,
